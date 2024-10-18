@@ -1,13 +1,10 @@
-"use client";
 import { MenuItem, MenuProps } from "@/app/lib/types";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 import NavigationLink from "./NavigationLink";
 import { useTranslations } from "next-intl";
 
 const MainMenu: React.FC<MenuProps> = ({ items, lang }) => {
-  const pathname = usePathname();
   const t = useTranslations("Navigation");
 
   return (
@@ -25,7 +22,6 @@ const MainMenu: React.FC<MenuProps> = ({ items, lang }) => {
       </li>
       <div className="flex items-center justify-center lg:space-x-8 xl:space-x-8">
         {items.map((link: MenuItem, index: number) => {
-          const isActive = pathname === link.path;
           return (
             <li
               key={index}

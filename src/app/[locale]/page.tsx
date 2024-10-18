@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
-import PageLayout from "@/components/PageLayout";
 import InteractiveSculpture from "@/components/InteractiveSculpture";
 import Button from "@/components/button";
 import InfoSection from "@/components/InfoSection";

@@ -1,13 +1,7 @@
 import { unstable_setRequestLocale } from "next-intl/server";
-import PageLayout from "@/components/PageLayout";
-import Image from "next/image";
 import InfoSection from "@/components/InfoSection";
 import { useTranslations } from "next-intl";
-import { InfoSectionProps } from "@/app/lib/types";
-
-type Props = {
-  params: { locale: string };
-};
+import { InfoSectionProps, Props } from "@/app/lib/types";
 
 export default function ArtistsPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);

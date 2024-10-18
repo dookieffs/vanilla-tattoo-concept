@@ -7,17 +7,12 @@ import {
   unstable_setRequestLocale,
 } from "next-intl/server";
 import { ReactNode } from "react";
-import Navigation from "@/components/Navigation";
 import { routing } from "@/i18n/routing";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { Props } from "../lib/types";
 
 const inter = Inter({ subsets: ["latin"] });
-
-type Props = {
-  children: ReactNode;
-  params: { locale: string };
-};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

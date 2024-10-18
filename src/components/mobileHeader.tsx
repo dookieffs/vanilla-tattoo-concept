@@ -6,7 +6,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Image from "next/image";
-import { AlignJustify, Apple } from "lucide-react";
+import { AlignJustify } from "lucide-react";
 import Link from "next/link";
 import NavigationLink from "./NavigationLink";
 import { useTranslations } from "next-intl";

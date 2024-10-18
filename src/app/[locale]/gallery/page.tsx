@@ -1,6 +1,4 @@
-import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
-import PageLayout from "@/components/PageLayout";
 import Image from "next/image";
 import { GalleryPreview } from "@/components/imagePreview";
 type Props = {
@@ -9,8 +7,6 @@ type Props = {
 
 export default function GalleryPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
-
-  // const t = useTranslations("PathnamesPage");
 
   const galleryImages = [
     {

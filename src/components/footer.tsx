@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { useRef } from "react";
 import NewsLetterSignUpForm from "./Newsletter";
 
 export default function Footer() {

@@ -2,7 +2,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import { Group, SpotLight as SpotlightType } from "three";
-import { easing, geometry } from "maath";
+import { easing } from "maath";
 
 export default function Model(props: any) {
   const group = useRef<Group>(null);

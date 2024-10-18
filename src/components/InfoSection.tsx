@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "./button";
 import { InfoSectionProps } from "@/app/lib/types";
 import { cn } from "@/app/lib/utils";
