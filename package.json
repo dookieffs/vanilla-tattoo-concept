@@ -9,7 +9,10 @@
     "test:playwright": "playwright test",
     "test:jest": "jest",
     "build": "npm build",
-    "start": "next start"
+    "start": "next start",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
@@ -39,6 +42,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.5",
     "@jest/globals": "^29.7.0",
     "@playwright/test": "^1.44.1",
     "@testing-library/react": "^16.0.0",
