@@ -8,11 +8,7 @@
     "test": "pnpm run test:playwright && pnpm run test:jest",
     "test:playwright": "playwright test",
     "test:jest": "jest",
-    "build": "npm build",
-    "start": "next start",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "start": "next start"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.8",
