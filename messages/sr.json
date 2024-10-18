@@ -1,0 +1,118 @@
+{
+  "Error": {
+    "description": "<p>Nažalost, došlo je do problema.</p><p>Možete pokušati <retry>ponovo učitati ovu stranicu</retry>.</p>",
+    "title": "Nešto je pošlo po zlu!"
+  },
+  "HomePage": {
+    "Heading": {
+      "title": "WE DRAW BETTER.",
+      "description": "Dobrodošli u Vanilla Tattoo Concept - mesto gde se umetnost susreće sa vašom kožom. Naša strast prema tetoviranju je očigledna u svakom delu koje kreiramo, a naš cilj je da vam pružimo jedinstveno i nezaboravno iskustvo tetoviranja.",
+      "buttonLabel1": "Zakaži konsultaciju",
+      "buttonUrl": "#",
+      "buttonLabel2": "O nama →",
+      "buttonUrl2": "/sr/o-nama"
+    },
+    "Credit": {
+      "title": "TATTOO KREDIT",
+      "description": "Tetovaža nije samo umetničko delo, već i lična priča ispričana na koži. Ipak, često može biti nedostižna investicija. Kako bi lakše nego ikad dobili tetovažu iz snova, naš studio vam je omogućio apliciranje za tattoo kredite - sada možete platiti svoju tetovažu na 12 i više meseci odloženog plaćanja. Sve što je potrebno jeste da zakažete termin za konsultacije. Od sada, za tetovažu je dovoljna samo vaša želja.",
+      "buttonLabel": "Zakaži konsultaciju",
+      "buttonUrl": "#"
+    },
+    "Discount": {
+      "title": "Akcija",
+      "subtitle": "Dizajn rukava do 30% popusta"
+    }
+  },
+  "ContactPage": {
+    "title": "KONTAKT",
+    "address": "Kralja Aleksandra I Karađorđevića 66, Kragujevac",
+    "email": "vanilla.tattoo.concept@gmail.com",
+    "phone": "+381692472477 (WhatsApp)",
+    "social": "PRATITE NAS",
+    "buttonText": "Zakaži konsultaciju",
+    "buttonUrl": "#"
+  },
+  "ArtistsPage": [
+    {
+      "imageSrc": "/static/images/artists/Stiwi.jpg",
+      "title": "STIWI",
+      "subtitle": "Tattoo umetnik",
+      "description": "Ljubav prema tetovažama prati me od ranog detinjstva. Svaki moj dizajn nosi dozu hrabre kreativnosti i složenih, pažljivo osmišljenih detalja koji se izdvajaju u svetu umetnosti na koži. Tetoviranje za mene nije samo profesija, već životna misija i strast koju sam pretvorio u uspešnu karijeru dugu više od 15 godina.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Minja.jpg",
+      "title": "MINJA",
+      "subtitle": "Tattoo umetnica",
+      "description": "Od ranog detinjstva crtanje je bio moj svet. Taj talenat sam s vremenom prenela na kožu, stvarajući tetovaže koje spajaju moju ljubav prema umetnosti i osećaj za detalje. U svom radu nalazim beskrajnu inspiraciju i strast, a svaki dan je prilika da unapredim veštine i proširim granice svog kreativnog izraza.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Aleksandar.jpg",
+      "title": "ALEKSANDAR",
+      "subtitle": "Tattoo umetnik",
+      "description": "Tetoviranjem se bavim od 2007. godine. Iako sam vešt u svim stilovima, specijalizovan sam za realizam u crno-belim tonovima (B&G), gde svaki detalj oživljavam kroz igru svetla i senki. Minimalizam je deo mog ličnog pečata - jedini nakit koji nosim je sat, dok brada čini prepoznatljiv deo mog stila.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Andreja.jpg",
+      "title": "ANDREJA",
+      "subtitle": "Menadžer i pirser",
+      "description": "Više od 15 godina menadžerskog iskustva uspešno sam preneo u svet tetoviranja, vođen iskrenom strašću prema ovoj umetnosti. Posedujem i sertifikat za body piercing, čime zaokružujem svoju ljubav prema transformaciji tela kroz umetnički izraz. U svakom aspektu svog rada težim savršenstvu.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    }
+  ],
+  "AboutUsPage": {
+    "imageSrc": "/static/images/about-us/Studio_001.jpg",
+    "title": "VANILLA TATTOO CONCEPT",
+    "description": "Naš tim čini pet talentovanih tattoo umetnika i sertifikovanog pirsing stručnjaka, sa više od četiri decenije iskustva, koji su tokom svojih dugogodišnjih karijera usavršavali veštine u prestižnim studijima širom Švajcarske, Nemačke, Austrije i Švedske. Ukoliko ste u potrazi za vrhunskim kvalitetom i besprekornom profesionalnom uslugom, tu smo da vašu viziju pretvorimo u umetničko delo na koži. Obratite nam se – jer vaša tetovaža zaslužuje samo najbolje.",
+    "buttonText": "Zakaži konsultaciju →",
+    "buttonUrl": "/sr/o-nama"
+  },
+  "Manifest": {
+    "description": "",
+    "name": ""
+  },
+  "Navigation": {
+    "home": "Početna",
+    "artists": "Umetnici",
+    "gallery": "Galerija",
+    "about-us": "O nama",
+    "contact": "Kontakt"
+  },
+  "NotFoundPage": {
+    "description": "Molimo proverite adresu u vašem pretraživaču ili koristite navigaciju da biste prešli na poznatu stranicu.",
+    "title": "Stranica nije pronađena"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Saznajte više o next-intl u zvaničnoj dokumentaciji.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Dokumentacija"
+      },
+      "source": {
+        "description": "Pogledajte izvorni kod ovog primera na GitHub-u.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Izvorni kod"
+      }
+    }
+  },
+  "LocaleLayout": {
+    "title": "VANILLA TATTOO CONCEPT"
+  },
+  "General": {
+    "allRightsReserved": "Sva prava zadržana.",
+    "newsletter": "Newsletter",
+    "emailAddress": "Email adresa",
+    "followUs": "Pratite nas",
+    "send": "Pošalji",
+    "contact": "Kontakt",
+    "toast_success": "Uspešno ste se prijavili na naš newsletter.",
+    "toast_fail": "Email je već prijavljen na naš newsletter."
+  }
+}

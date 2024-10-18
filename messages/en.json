@@ -1,0 +1,118 @@
+{
+  "Error": {
+    "description": "<p>Unfortunately, an issue has occurred.</p><p>You can try <retry>reloading this page</retry>.</p>",
+    "title": "Something went wrong!"
+  },
+  "HomePage": {
+    "Heading": {
+      "title": "WE DRAW BETTER.",
+      "description": "Welcome to Vanilla Tattoo Concept - a place where art meets your skin. Our passion for tattooing is evident in every piece we create, and our goal is to provide you with a unique and unforgettable tattooing experience.",
+      "buttonLabel1": "Schedule a consultation",
+      "buttonUrl": "#",
+      "buttonLabel2": "About us →",
+      "buttonUrl2": "/en/about-us"
+    },
+    "Credit": {
+      "title": "TATTOO CREDIT",
+      "description": "A tattoo is not just an artwork, but a personal story told on the skin. However, it can often be a costly investment. To make it easier than ever to get your dream tattoo, our studio has made it possible to apply for tattoo credits - now you can pay for your tattoo in 12 or more months of deferred payments. All you need to do is schedule a consultation. From now on, all you need for a tattoo is just your desire.",
+      "buttonLabel": "Schedule a consultation",
+      "buttonUrl": "#"
+    },
+    "Discount": {
+      "title": "Promotion",
+      "subtitle": "Sleeve design up to 30% off"
+    }
+  },
+  "ContactPage": {
+    "title": "CONTACT",
+    "address": "Kralja Aleksandra I Karađorđevića 66, Kragujevac",
+    "email": "vanilla.tattoo.concept@gmail.com",
+    "phone": "+381692472477 (WhatsApp)",
+    "social": "FOLLOW US",
+    "buttonText": "Schedule a consultation",
+    "buttonUrl": "#"
+  },
+  "ArtistsPage": [
+    {
+      "imageSrc": "/static/images/artists/Stiwi.jpg",
+      "title": "STIWI",
+      "subtitle": "Tattoo artist",
+      "description": "My love for tattoos has followed me since early childhood. Every design I create carries a touch of bold creativity and intricate, carefully thought-out details that stand out in the world of skin art. Tattooing is not just a profession for me, but a life mission and a passion I have turned into a successful career spanning over 15 years.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Minja.jpg",
+      "title": "MINJA",
+      "subtitle": "Tattoo artist",
+      "description": "From early childhood, drawing was my world. Over time, I transferred that talent onto the skin, creating tattoos that combine my love for art and an eye for detail. In my work, I find endless inspiration and passion, and every day is an opportunity to improve my skills and expand the boundaries of my creative expression.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Aleksandar.jpg",
+      "title": "ALEKSANDAR",
+      "subtitle": "Tattoo artist",
+      "description": "I have been tattooing since 2007. Although I am skilled in all styles, I specialize in black and grey realism, where I bring each detail to life through the play of light and shadow. Minimalism is a part of my personal signature - the only jewelry I wear is a watch, while my beard is a recognizable part of my style.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    },
+    {
+      "imageSrc": "/static/images/artists/Andreja.jpg",
+      "title": "ANDREJA",
+      "subtitle": "Manager and piercer",
+      "description": "With over 15 years of managerial experience, I successfully transitioned into the world of tattooing, driven by a genuine passion for this art. I also hold a certification for body piercing, completing my love for body transformation through artistic expression. In every aspect of my work, I strive for perfection.",
+      "buttonText": "Portfolio →",
+      "buttonUrl": "#"
+    }
+  ],
+  "AboutUsPage": {
+    "imageSrc": "/static/images/about-us/Studio_001.jpg",
+    "title": "VANILLA TATTOO CONCEPT",
+    "description": "Our team consists of five talented tattoo artists and a certified piercing specialist, with over four decades of experience. During their long careers, they honed their skills in prestigious studios across Switzerland, Germany, Austria, and Sweden. If you are looking for top-quality and impeccable professional service, we are here to turn your vision into an artwork on your skin. Contact us – because your tattoo deserves only the best.",
+    "buttonText": "Schedule a consultation →",
+    "buttonUrl": "#"
+  },
+  "Manifest": {
+    "description": "",
+    "name": ""
+  },
+  "Navigation": {
+    "home": "Home",
+    "artists": "Artists",
+    "gallery": "Gallery",
+    "about-us": "About us",
+    "contact": "Contact"
+  },
+  "NotFoundPage": {
+    "description": "Please check the address bar of your browser or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official documentation.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Documentation"
+      },
+      "source": {
+        "description": "See the source code for this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+  },
+  "LocaleLayout": {
+    "title": "VANILLA TATTOO CONCEPT"
+  },
+  "General": {
+    "allRightsReserved": "All rights reserved.",
+    "newsletter": "Newsletter",
+    "emailAddress": "Email address",
+    "followUs": "Follow us",
+    "send": "Send",
+    "contact": "Contact",
+    "toast_success": "You have successfully subscribed to our newsletter.",
+    "toast_fail": "This email is already subscribed to our newsletter."
+  }
+}
