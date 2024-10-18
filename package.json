@@ -8,7 +8,7 @@
     "test": "pnpm run test:playwright && pnpm run test:jest",
     "test:playwright": "playwright test",
     "test:jest": "jest",
-    "build": "next build",
+    "build": "npm build",
     "start": "next start"
   },
   "dependencies": {
