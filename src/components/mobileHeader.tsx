@@ -12,6 +12,7 @@ import NavigationLink from "./NavigationLink";
 import { useTranslations } from "next-intl";
 
 const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
+  //@ts-ignore
   const t = useTranslations("Navigation");
 
   return (
