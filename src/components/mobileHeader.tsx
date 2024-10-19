@@ -16,7 +16,7 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
   const t = useTranslations("Navigation");
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden pb-10">
       <Sheet>
         <SheetTrigger className="pt-10 pl-10">
           <AlignJustify />
