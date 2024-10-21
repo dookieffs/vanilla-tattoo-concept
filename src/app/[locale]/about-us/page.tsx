@@ -40,7 +40,7 @@ export default function AboutUsPage({ params: { locale } }: Props) {
   const aboutUsData = t.raw("AboutUsPage");
 
   return (
-    <div className="container max-w-full lg:px-[100px] m-auto px-3.5 pb-24">
+    <div className="container max-w-[1528px] lg:px-[100px] m-auto pb-24">
       <InfoSection
         imageSrc={aboutUsData.imageSrc}
         title={aboutUsData.title}

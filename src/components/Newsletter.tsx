@@ -53,7 +53,7 @@ export default function NewsLetterSignUpForm() {
           autoCapitalize="none"
           autoCorrect="none"
           placeholder={footerLabels.emailAddress}
-          className="h-[52px] rounded-none border-[#d0a878] !placeholder-[#d0a878]"
+          className="h-[52px] rounded-none border-[#C09B63] !placeholder-[#C09B63]"
         />
         <Button
           variant="primary"

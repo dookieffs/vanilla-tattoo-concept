@@ -92,7 +92,7 @@ export default function GalleryPage({ params: { locale } }: Props) {
   ];
 
   return (
-    <div className="lg:max-w-full lg:px-[100px] m-auto grid grid-cols-2 lg:grid-cols-4 gap-3 pb-24">
+    <div className="lg:max-w-[1528px] lg:px-[100px] m-auto grid grid-cols-2 lg:grid-cols-4 gap-3 pb-24">
       {galleryImages.map((item, index) => (
         <div key={index} className="overflow-hidden cursor-pointer m-auto">
           <Image

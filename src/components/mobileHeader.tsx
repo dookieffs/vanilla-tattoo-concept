@@ -1,6 +1,7 @@
 import { MenuProps, MenuItem } from "@/app/lib/types";
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetTitle,
   SheetTrigger,
@@ -18,12 +19,9 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
   return (
     <div className="md:hidden pb-10">
       <Sheet>
-        <SheetTrigger className="pt-10 pl-10">
-          <AlignJustify />
-        </SheetTrigger>
         <SheetContent
-          side="left"
-          className="bg-[#242424] max-w-[250px] text-center"
+          side="right"
+          className="bg-[#242424] max-w-[250px] text-center border-transparent"
         >
           <SheetTitle></SheetTitle>
           <NavigationLink href="/">
@@ -41,9 +39,11 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
                 key={index}
                 className="hover:text-[#C09B63] whitespace-nowrap uppercase"
               >
-                <NavigationLink href={link.path}>
-                  {t(`${link.alias}`)}
-                </NavigationLink>
+                <SheetClose asChild>
+                  <NavigationLink href={link.path}>
+                    {t(`${link.alias}`)}
+                  </NavigationLink>
+                </SheetClose>
               </div>
             );
           })}
@@ -94,6 +94,19 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
             </Link>
           </div>
         </SheetContent>
+        <div className="w-full inline-flex p-10">
+          <NavigationLink href="/" className=" align-center m-auto">
+            <Image
+              src="/static/logo.svg"
+              alt="Vanilla tattoo concept logo"
+              width={96}
+              height={91}
+            />
+          </NavigationLink>
+          <SheetTrigger>
+            <AlignJustify className="ml-auto " />
+          </SheetTrigger>
+        </div>
       </Sheet>
     </div>
   );

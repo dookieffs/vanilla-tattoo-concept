@@ -52,7 +52,7 @@ export default function IndexPage({ params: { locale } }: Props) {
   const homePage = t.raw("HomePage");
 
   return (
-    <div className="max-w-full lg:px-[100px] m-auto">
+    <div className="max-w-[1528px] lg:px-[100px] m-auto">
       <div className="h-[90vh] relative">
         <InteractiveSculpture />
 
@@ -61,7 +61,7 @@ export default function IndexPage({ params: { locale } }: Props) {
           <p className="flex-grow text-xl pt-4">
             {homePage.Heading.description}
           </p>
-          <div className="lg:inline-flex pt-16">
+          <div className="lg:inline-flex pt-16 !mt-10">
             <Button label={homePage.Heading.buttonLabel1} variant="primary" />
             <Button
               label={homePage.Heading.buttonLabel2}
@@ -74,7 +74,6 @@ export default function IndexPage({ params: { locale } }: Props) {
       </div>
       <div className="max-w-full m-auto pt-12">
         <InfoSection
-          className="pt-16"
           imageSrc="/static/images/creditPhoto.jpg"
           title={homePage.Credit.title}
           description={homePage.Credit.description}
