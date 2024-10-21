@@ -26,7 +26,7 @@ export default function ContactPage({ params: { locale } }: Props) {
 
   return (
     <div className="lg:flex lg:flex-row lg:px-[100px] pb-12 space-y-6 lg:space-y-0 lg:space-x-6 justify-center">
-      <div className="bg-[#242424] p-5 pt-10 text-xl max-w-[500px]">
+      <div className="bg-[#242424] p-5 pt-10 text-lg max-w-[500px]">
         <div>{aboutUsData.title}</div>
         <div className="pt-5">{aboutUsData.address}</div>
         <div className="pt-5">{aboutUsData.email}</div>

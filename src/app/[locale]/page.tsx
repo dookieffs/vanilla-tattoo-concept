@@ -56,7 +56,7 @@ export default function IndexPage({ params: { locale } }: Props) {
       <div className="h-[90vh] relative">
         <InteractiveSculpture />
 
-        <div className="flex flex-col justify-center space-y-4 max-w-[860px] absolute top-0 p-10 lg:p-0 lg:top-56">
+        <div className="flex flex-col justify-center space-y-4 max-w-[860px] absolute top-0 p-5 lg:p-0 lg:top-56">
           <div className="text-4xl lg:text-6xl">{homePage.Heading.title}</div>
           <p className="flex-grow text-xl pt-4">
             {homePage.Heading.description}

@@ -68,8 +68,8 @@
   ],
   "AboutUsPage": {
     "imageSrc": "/static/images/about-us/Studio_001.jpg",
-    "title": "VANILLA TATTOO CONCEPT",
-    "description": "Naš tim čini pet talentovanih tattoo umetnika i sertifikovanog pirsing stručnjaka, sa više od četiri decenije iskustva, koji su tokom svojih dugogodišnjih karijera usavršavali veštine u prestižnim studijima širom Švajcarske, Nemačke, Austrije i Švedske. Ukoliko ste u potrazi za vrhunskim kvalitetom i besprekornom profesionalnom uslugom, tu smo da vašu viziju pretvorimo u umetničko delo na koži. Obratite nam se – jer vaša tetovaža zaslužuje samo najbolje.",
+    "title": "VANILLA  <br/> TATTOO CONCEPT",
+    "description": "Naš tim čini pet talentovanih tattoo umetnika i sertifikovanog pirsing stručnjaka, sa više od četiri decenije iskustva, koji su tokom svojih dugogodišnjih karijera usavršavali veštine u prestižnim studijima širom Švajcarske, Nemačke, Austrije i Švedske. Ukoliko ste u potrazi za vrhunskim kvalitetom i besprekornom profesionalnom uslugom, tu smo da vašu viziju pretvorimo u umetničko delo na koži. <br/> Obratite nam se – jer vaša tetovaža zaslužuje samo najbolje.",
     "buttonText": "Zakaži konsultaciju →",
     "buttonUrl": "/sr/o-nama"
   },

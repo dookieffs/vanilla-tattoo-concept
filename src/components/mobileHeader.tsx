@@ -47,7 +47,7 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
               </div>
             );
           })}
-          <div className="hover:text-[#C09B63]">
+          <div className="hover:text-[#C09B63] py-3 ">
             {lang === "sr" && <Link href="/en">EN</Link>}
             {lang === "en" && <Link href="/sr">SR</Link>}
           </div>
@@ -95,7 +95,7 @@ const MobileNav: React.FC<MenuProps> = ({ items, lang }) => {
           </div>
         </SheetContent>
         <div className="w-full inline-flex p-10">
-          <NavigationLink href="/" className=" align-center m-auto">
+          <NavigationLink href="/" className=" align-center m-auto pl-[24px]">
             <Image
               src="/static/logo.svg"
               alt="Vanilla tattoo concept logo"

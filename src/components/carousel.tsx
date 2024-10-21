@@ -29,8 +29,16 @@ const VanillaCarousel: React.FC<CarouselProps> = ({
 }) => {
   return (
     <div className="py-6 lg:py-24">
-      <div className="text-center text-3xl lg:text-5xl">{title}</div>
-      <div className="text-center text-xl min-h-[40px] pb-3.5">{subtitle}</div>
+      <div
+        className={`text-center text-3xl lg:text-5xl ${!subtitle ? "pb-3.5" : ""}`}
+      >
+        {title}
+      </div>
+      {subtitle && (
+        <div className="text-center text-xl min-h-[40px] pb-3.5">
+          {subtitle}
+        </div>
+      )}
       <Carousel
         opts={{
           align: "start",

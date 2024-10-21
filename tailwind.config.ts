@@ -17,9 +17,6 @@ module.exports = {
         initial: "initial",
       },
       colors: {
-        slate: {
-          "850": "hsl(222deg 47% 16%)",
-        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
