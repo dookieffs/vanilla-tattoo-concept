@@ -27,7 +27,7 @@ const Button: React.FC<ButtonProps> = ({
       )}
         ${
           variant === "primary"
-            ? "bg-[#C09B63] text-white hover:bg-[#242424]"
+            ? "bg-[#C09B63] text-white hover:bg-[#242424] border border-transparent hover:border hover:border-[#C09B63]"
             : "bg-transparent text-[#C09B63] border border-[#C09B63] hover:bg-[#242424] hover:text-white"
         }
       `}
