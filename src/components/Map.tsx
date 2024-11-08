@@ -20,7 +20,7 @@ const defaults = {
 const Map = (Map: MapProps) => {
   const { zoom = defaults.zoom, posix } = Map;
   const customIcon = new L.Icon({
-    iconUrl: "/static/logo.svg",
+    iconUrl: "/static/logoWhite.svg",
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     popupAnchor: [0, -30],

@@ -1,31 +1,10 @@
+import { menuRoutes } from "@/lib/constants";
 import MainMenu from "./MainMenu";
-import MobileNav from "./mobileHeader";
+import MobileNav from "./MobileHeader";
 interface HeaderProps {
   lang: string;
 }
 export default function Header({ lang }: HeaderProps) {
-  const menuRoutes = [
-    {
-      alias: "home",
-      path: "/",
-    },
-    {
-      alias: "gallery",
-      path: "/gallery",
-    },
-    {
-      alias: "artists",
-      path: "/artists",
-    },
-    {
-      alias: "about-us",
-      path: "/about-us",
-    },
-    {
-      alias: "contact",
-      path: "/contact",
-    },
-  ];
   return (
     <>
       <MobileNav lang={lang} items={menuRoutes} />

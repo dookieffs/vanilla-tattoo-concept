@@ -23,7 +23,7 @@ export default function Scene() {
     >
       <directionalLight position={[-5, -5, 5]} intensity={1} />
       <Suspense fallback={<Loader />}>
-        <ScrollControls damping={1} pages={3}>
+        <ScrollControls damping={0.5} pages={3}>
           <Model position={[0, -6, 0]} rotation={[0, -0.2, 0]} />
         </ScrollControls>
       </Suspense>

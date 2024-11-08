@@ -1,10 +1,10 @@
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import InteractiveSculpture from "@/components/InteractiveSculpture";
-import Button from "@/components/button";
+import Button from "@/components/Button";
 import InfoSection from "@/components/InfoSection";
-import VanillaCarousel from "@/components/carousel";
-import { GalleryPreview } from "@/components/imagePreview";
+import VanillaCarousel from "@/components/Carousel";
+import { GalleryPreview } from "@/components/ImagePreview";
 
 type Props = {
   params: { locale: string };
@@ -66,7 +66,7 @@ export default function IndexPage({ params: { locale } }: Props) {
             <Button
               label={homePage.Heading.buttonLabel2}
               variant="secondary"
-              className="ml-2"
+              className="md:ml-2"
               buttonUrl={homePage.Heading.buttonUrl2}
             />
           </div>

@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import Image from "next/image";
 import { useMemo } from "react";
-import Button from "@/components/button";
+import Button from "@/components/Button";
 
 export default function ContactPage({ params: { locale } }: Props) {
   const Map = useMemo(

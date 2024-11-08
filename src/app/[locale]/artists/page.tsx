@@ -7,7 +7,7 @@ export default function ArtistsPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
   const t = useTranslations();
   return (
-    <div className="container max-w-[1528px] lg:px-[100px] m-auto pt-10 pb-24">
+    <div className="container max-w-[1528px] lg:px-[100px] m-auto xpt-10 pb-24">
       {t.raw("ArtistsPage").map((artist: InfoSectionProps, index: number) => (
         <InfoSection
           key={index}

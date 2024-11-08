@@ -1,6 +1,8 @@
+import { Pathnames } from "@/i18n/routing";
+
 export interface MenuItem {
   alias: string;
-  path: string;
+  path: Pathnames;
 }
 
 export interface MenuProps {

@@ -1,7 +1,7 @@
 import { unstable_setRequestLocale } from "next-intl/server";
 import InfoSection from "@/components/InfoSection";
 import { useTranslations } from "next-intl";
-import VanillaCarousel from "@/components/carousel";
+import VanillaCarousel from "@/components/Carousel";
 import { Props } from "@/app/lib/types";
 
 export default function AboutUsPage({ params: { locale } }: Props) {

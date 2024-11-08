@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { Input } from "./ui/input";
-import Button from "./button";
+import Button from "./Button";
 import { useTranslations } from "next-intl";
 import { useToast } from "@/hooks/use-toast";
 import { Toaster } from "./ui/toaster";
@@ -53,7 +53,7 @@ export default function NewsLetterSignUpForm() {
           autoCapitalize="none"
           autoCorrect="none"
           placeholder={footerLabels.emailAddress}
-          className="h-[52px] rounded-none border-[#C09B63] !placeholder-[#C09B63]"
+          className="h-[54px] rounded-none border-[#C09B63] !placeholder-[#C09B63]"
         />
         <Button
           variant="primary"

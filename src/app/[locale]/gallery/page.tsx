@@ -1,6 +1,6 @@
 import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
-import { GalleryPreview } from "@/components/imagePreview";
+import { GalleryPreview } from "@/components/ImagePreview";
 type Props = {
   params: { locale: string };
 };

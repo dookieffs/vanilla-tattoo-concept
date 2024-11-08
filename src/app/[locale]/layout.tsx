@@ -8,8 +8,8 @@ import {
 } from "next-intl/server";
 import { ReactNode } from "react";
 import { routing } from "@/i18n/routing";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import { Props } from "../lib/types";
 
 const inter = Inter({ subsets: ["latin"] });
