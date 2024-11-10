@@ -78,6 +78,7 @@ export default function ContactPage({ params: { locale } }: Props) {
           variant="primary"
           label={aboutUsData.buttonText}
           className="whitespace-nowrap mt-20 block"
+          buttonUrl={aboutUsData.buttonUrl}
         />
       </div>
       <div className="lg:flex lg:flex-col lg:justify-center">

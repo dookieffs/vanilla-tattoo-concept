@@ -10,43 +10,43 @@ type Props = {
   params: { locale: string };
 };
 
+const images = [
+  {
+    image: "/static/images/discount/Dizajn_001.jpg",
+    title: "Dizajn 001",
+  },
+  {
+    image: "/static/images/discount/Dizajn_002.jpg",
+    title: "Dizajn 002",
+  },
+  {
+    image: "/static/images/discount/Dizajn_003.jpg",
+    title: "Dizajn 003",
+  },
+  {
+    image: "/static/images/discount/Dizajn_004.jpg",
+    title: "Dizajn 004",
+  },
+  {
+    image: "/static/images/discount/Dizajn_005.jpg",
+    title: "Dizajn 005",
+  },
+  {
+    image: "/static/images/discount/Dizajn_006.jpg",
+    title: "Dizajn 006",
+  },
+  {
+    image: "/static/images/discount/Dizajn_007.jpg",
+    title: "Dizajn 007",
+  },
+  {
+    image: "/static/images/discount/Dizajn_008.jpg",
+    title: "Dizajn 008",
+  },
+];
 export default function IndexPage({ params: { locale } }: Props) {
   // Enable static rendering
   unstable_setRequestLocale(locale);
-  const images = [
-    {
-      image: "/static/images/discount/Dizajn_001.jpg",
-      title: "Dizajn 001",
-    },
-    {
-      image: "/static/images/discount/Dizajn_002.jpg",
-      title: "Dizajn 002",
-    },
-    {
-      image: "/static/images/discount/Dizajn_003.jpg",
-      title: "Dizajn 003",
-    },
-    {
-      image: "/static/images/discount/Dizajn_004.jpg",
-      title: "Dizajn 004",
-    },
-    {
-      image: "/static/images/discount/Dizajn_005.jpg",
-      title: "Dizajn 005",
-    },
-    {
-      image: "/static/images/discount/Dizajn_006.jpg",
-      title: "Dizajn 006",
-    },
-    {
-      image: "/static/images/discount/Dizajn_007.jpg",
-      title: "Dizajn 007",
-    },
-    {
-      image: "/static/images/discount/Dizajn_008.jpg",
-      title: "Dizajn 008",
-    },
-  ];
 
   const t = useTranslations();
   const homePage = t.raw("HomePage");
@@ -62,7 +62,11 @@ export default function IndexPage({ params: { locale } }: Props) {
             {homePage.Heading.description}
           </p>
           <div className="lg:inline-flex pt-16 !mt-10">
-            <Button label={homePage.Heading.buttonLabel1} variant="primary" />
+            <Button
+              label={homePage.Heading.buttonLabel1}
+              variant="primary"
+              buttonUrl={homePage.Heading.buttonUrl}
+            />
             <Button
               label={homePage.Heading.buttonLabel2}
               variant="secondary"

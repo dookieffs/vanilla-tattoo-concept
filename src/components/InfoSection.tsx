@@ -34,6 +34,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
             label={buttonText}
             variant="primary"
             className="m-5 !mt-10 lg:m-10"
+            buttonUrl={buttonUrl}
           />
         )}
       </div>
