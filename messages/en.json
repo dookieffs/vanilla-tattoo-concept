@@ -8,7 +8,7 @@
       "title": "WE DRAW BETTER.",
       "description": "Welcome to Vanilla Tattoo Concept - a place where art meets your skin. Our passion for tattooing is evident in every piece we create, and our goal is to provide you with a unique and unforgettable tattooing experience.",
       "buttonLabel1": "Schedule a consultation",
-      "buttonUrl": "#",
+      "buttonUrl": "https://forms.gle/HQxB2nwL8D8zC91z6",
       "buttonLabel2": "About us →",
       "buttonUrl2": "/en/about-us"
     },
@@ -16,7 +16,7 @@
       "title": "TATTOO CREDIT",
       "description": "A tattoo is not just an artwork, but a personal story told on the skin. However, it can often be a costly investment. To make it easier than ever to get your dream tattoo, our studio has made it possible to apply for tattoo credits - now you can pay for your tattoo in 12 or more months of deferred payments. All you need to do is schedule a consultation. From now on, all you need for a tattoo is just your desire.",
       "buttonLabel": "Schedule a consultation",
-      "buttonUrl": "#"
+      "buttonUrl": "https://forms.gle/HQxB2nwL8D8zC91z6"
     },
     "Discount": {
       "title": "PROMOTION",
@@ -30,7 +30,7 @@
     "phone": "+381692472477 (WhatsApp)",
     "social": "FOLLOW US",
     "buttonText": "Schedule a consultation",
-    "buttonUrl": "#"
+    "buttonUrl": "https://forms.gle/HQxB2nwL8D8zC91z6"
   },
   "ArtistsPage": [
     {
